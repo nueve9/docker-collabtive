@@ -4,10 +4,10 @@ MAINTAINER "Christian Kniep <christian@qnib.org>"
 
 EXPOSE 80
 VOLUME ["/var/www/html", "/var/lib/mysql"]
-RUN yum install -y tar
+RUN yum install -y tar nano vim; yum clean all
 
-RUN yum install -y mysql-server ImageMagick-perl
-RUN yum install -y httpd php php-pear php-xml php-mysql php-intl php-pecl-apc php-gd php-mbstring
+RUN yum install -y mysql-server ImageMagick-perl; yum clean all
+RUN yum install -y httpd php php-pear php-xml php-mysql php-intl php-pecl-apc php-gd php-mbstring; yum clean all
 
 # httpd start
 ADD etc/supervisord.d/httpd.ini /etc/supervisord.d/httpd.ini
