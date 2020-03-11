@@ -1,4 +1,6 @@
-Docker Image that provides the Collabtive Groupware in Version 2.0 (http://collabtive.o-dyn.de).
+NOT FINISH YET !!!
+
+Docker Image that provides the Collabtive Groupware in Version 3.1 (http://collabtive.o-dyn.de).
 
 Login is (admin/admin).
 
