@@ -7,7 +7,7 @@ Login is (admin/admin).
 ```
 docker run --privileged -d -v /dev/urandom:/dev/urandom \
            -v /dev/random:/dev/random -v /dev/null:/dev/null \
-           -p 8181:80 qnib/collabtive
+           -p 8181:80  nueve9/docker-collabtive 
 ```
 
 #### Common Issue [Github Issue about it](https://github.com/ChristianKniep/docker-collabtive/issues/3)
