@@ -1,7 +1,7 @@
 ###### Updated version of fedora (20)
 
 
-FROM centos:centos-cloud
+FROM centos:7
 MAINTAINER nueve9
 
 EXPOSE 80
