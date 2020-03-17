@@ -1,5 +1,5 @@
 FROM centos:6
-MAINTAINER nueve9
+LABEL maintainer="nueve9"
 
 EXPOSE 80
 VOLUME ["/var/www/html", "/var/lib/mysql"]
