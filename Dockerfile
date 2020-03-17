@@ -31,4 +31,4 @@ ADD root/bin/backup_site.sh /root/bin/
 COPY collabtive31_init.tar /root/collabtive31_init.tar
 COPY backup_init.sql /root/backup_init.sql
 
-#CMD /usr/bin/supervisord -c /etc/supervisord.conf
+CMD /usr/bin/supervisord -c /etc/supervisord.conf
