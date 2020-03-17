@@ -22,8 +22,8 @@ ADD root/bin/start_mysqld.sh /root/bin/start_mysqld.sh
 ADD root/bash_func /root/
 ADD etc/supervisord.d/setup_collabtive.ini /etc/supervisord.d/
 ADD root/bin/setup_collabtive.sh /root/bin/
-ADD etc/supervisord.d/backup_site.ini /etc/supervisord.d/
-ADD root/bin/backup_site.sh /root/bin/
+#ADD etc/supervisord.d/backup_site.ini /etc/supervisord.d/
+#ADD root/bin/backup_site.sh /root/bin/
 
 COPY collabtive31_init.tar /root/collabtive31_init.tar
 COPY backup_init.sql /root/backup_init.sql
