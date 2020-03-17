@@ -1,7 +1,7 @@
 ###### Updated version of fedora (20)
 
 
-FROM centos:7
+FROM centos:6
 MAINTAINER nueve9
 
 EXPOSE 80
