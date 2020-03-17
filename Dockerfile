@@ -1,6 +1,3 @@
-###### Updated version of fedora (20)
-
-
 FROM centos:6
 MAINTAINER nueve9
 
