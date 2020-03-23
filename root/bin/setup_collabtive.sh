@@ -26,7 +26,7 @@ if [ ! -f /var/www/html/index.php ];then
       echo "# initializing basic"
       # TODO: DB-PW for collabuser should be adjusted
       cd /var/www/html/
-      tar xf /root/collabtive20_init.tar
+      tar xf /root/collabtive31_init.tar
       chown apache: /var/www/html/config/standard/config.php
       chown apache: -R  /var/www/html/{files,templates_c}
       mysql -uroot -p${MYSQLPW_ROOT} < /root/backup_init.sql
@@ -36,4 +36,4 @@ fi
 
 touch /var/run/setup_collective.pid
 
-rm -f /root/backup_init.sql /root/collabtive20_init.tar
+rm -f /root/backup_init.sql /root/collabtive31_init.tar
