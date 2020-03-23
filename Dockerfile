@@ -28,5 +28,5 @@ ADD root/bin/setup_collabtive.sh /root/bin/
 COPY collabtive31_init.tar /root/collabtive31_init.tar
 COPY backup_init.sql /root/backup_init.sql
 
-CMD ["/usr/bin/supervisord"]
+CMD ["/usr/bin/supervisord -c /etc/supervidord.conf"]
 #CMD /usr/bin/supervisord -c /etc/supervisord.conf
